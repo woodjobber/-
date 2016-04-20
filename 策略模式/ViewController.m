@@ -7,6 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "Plane.h"
+#import "Car.h"
+#import "Person.h"
+
+///////////////////////////////////
+
+#import "NCar.h"
+#import "NPlane.h"
+#import "NPerson.h"
 
 @interface ViewController ()
 
@@ -17,6 +26,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    Person *xiaoming = [[Person alloc]init];
+    [xiaoming travelWithTransport:[[Car alloc]init]];
+    [xiaoming travelWithTransport:[[Plane alloc] init]];
+    
+    NPerson *xiaohong= [[NPerson alloc]init];
+    [xiaohong travelWithTransport:[[NCar alloc]init]];
+    [xiaohong travelWithTransport:[[NPlane alloc]init]];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

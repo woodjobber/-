@@ -13,6 +13,13 @@
 		7C45CAE31CC717CE00D2E64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C45CAE11CC717CE00D2E64A /* Main.storyboard */; };
 		7C45CAE51CC717CE00D2E64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C45CAE41CC717CE00D2E64A /* Assets.xcassets */; };
 		7C45CAE81CC717CE00D2E64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C45CAE61CC717CE00D2E64A /* LaunchScreen.storyboard */; };
+		7C45CB041CC71A8B00D2E64A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CAFD1CC71A8B00D2E64A /* Car.m */; };
+		7C45CB051CC71A8B00D2E64A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CAFF1CC71A8B00D2E64A /* Person.m */; };
+		7C45CB061CC71A8B00D2E64A /* Plane.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CB011CC71A8B00D2E64A /* Plane.m */; };
+		7C45CB071CC71A8B00D2E64A /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CB031CC71A8B00D2E64A /* Transport.m */; };
+		7C45CB0C1CC71C1500D2E64A /* NCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CB0B1CC71C1500D2E64A /* NCar.m */; };
+		7C45CB0F1CC71C4E00D2E64A /* NPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CB0E1CC71C4E00D2E64A /* NPerson.m */; };
+		7C45CB121CC71C5C00D2E64A /* NPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C45CB111CC71C5C00D2E64A /* NPlane.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		7C45CAE41CC717CE00D2E64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C45CAE71CC717CE00D2E64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C45CAE91CC717CE00D2E64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C45CAFC1CC71A8B00D2E64A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		7C45CAFD1CC71A8B00D2E64A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		7C45CAFE1CC71A8B00D2E64A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7C45CAFF1CC71A8B00D2E64A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7C45CB001CC71A8B00D2E64A /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plane.h; sourceTree = "<group>"; };
+		7C45CB011CC71A8B00D2E64A /* Plane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plane.m; sourceTree = "<group>"; };
+		7C45CB021CC71A8B00D2E64A /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transport.h; sourceTree = "<group>"; };
+		7C45CB031CC71A8B00D2E64A /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transport.m; sourceTree = "<group>"; };
+		7C45CB091CC71B8900D2E64A /* TransportProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransportProtocol.h; sourceTree = "<group>"; };
+		7C45CB0A1CC71C1500D2E64A /* NCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCar.h; sourceTree = "<group>"; };
+		7C45CB0B1CC71C1500D2E64A /* NCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCar.m; sourceTree = "<group>"; };
+		7C45CB0D1CC71C4E00D2E64A /* NPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPerson.h; sourceTree = "<group>"; };
+		7C45CB0E1CC71C4E00D2E64A /* NPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPerson.m; sourceTree = "<group>"; };
+		7C45CB101CC71C5C00D2E64A /* NPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPlane.h; sourceTree = "<group>"; };
+		7C45CB111CC71C5C00D2E64A /* NPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPlane.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,8 @@
 		7C45CAD71CC717CD00D2E64A /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				7C45CB081CC71AAA00D2E64A /* 协议方式实现策略模式 */,
+				7C45CAFB1CC71A8B00D2E64A /* 继承方式实现策略模式 */,
 				7C45CADB1CC717CD00D2E64A /* AppDelegate.h */,
 				7C45CADC1CC717CD00D2E64A /* AppDelegate.m */,
 				7C45CADE1CC717CD00D2E64A /* ViewController.h */,
@@ -77,6 +101,35 @@
 				7C45CAD91CC717CD00D2E64A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C45CAFB1CC71A8B00D2E64A /* 继承方式实现策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				7C45CAFC1CC71A8B00D2E64A /* Car.h */,
+				7C45CAFD1CC71A8B00D2E64A /* Car.m */,
+				7C45CAFE1CC71A8B00D2E64A /* Person.h */,
+				7C45CAFF1CC71A8B00D2E64A /* Person.m */,
+				7C45CB001CC71A8B00D2E64A /* Plane.h */,
+				7C45CB011CC71A8B00D2E64A /* Plane.m */,
+				7C45CB021CC71A8B00D2E64A /* Transport.h */,
+				7C45CB031CC71A8B00D2E64A /* Transport.m */,
+			);
+			path = "继承方式实现策略模式";
+			sourceTree = "<group>";
+		};
+		7C45CB081CC71AAA00D2E64A /* 协议方式实现策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				7C45CB091CC71B8900D2E64A /* TransportProtocol.h */,
+				7C45CB0A1CC71C1500D2E64A /* NCar.h */,
+				7C45CB0B1CC71C1500D2E64A /* NCar.m */,
+				7C45CB0D1CC71C4E00D2E64A /* NPerson.h */,
+				7C45CB0E1CC71C4E00D2E64A /* NPerson.m */,
+				7C45CB101CC71C5C00D2E64A /* NPlane.h */,
+				7C45CB111CC71C5C00D2E64A /* NPlane.m */,
+			);
+			path = "协议方式实现策略模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C45CB061CC71A8B00D2E64A /* Plane.m in Sources */,
 				7C45CAE01CC717CE00D2E64A /* ViewController.m in Sources */,
 				7C45CADD1CC717CD00D2E64A /* AppDelegate.m in Sources */,
+				7C45CB071CC71A8B00D2E64A /* Transport.m in Sources */,
+				7C45CB051CC71A8B00D2E64A /* Person.m in Sources */,
+				7C45CB0F1CC71C4E00D2E64A /* NPerson.m in Sources */,
+				7C45CB0C1CC71C1500D2E64A /* NCar.m in Sources */,
+				7C45CB041CC71A8B00D2E64A /* Car.m in Sources */,
 				7C45CADA1CC717CD00D2E64A /* main.m in Sources */,
+				7C45CB121CC71C5C00D2E64A /* NPlane.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
